@@ -1,0 +1,179 @@
+/* HEARDER STYLES BEGIN HERE */
+
+.top-logo{
+    font-size: 38px;
+    font-weight: 900;
+    color: rgba(0, 0, 0,0.9);
+}
+.bottom-logo{
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: -30px;
+    color: rgba(0, 0, 0,0.9);
+    letter-spacing: 2px;
+}
+.primary-color{
+    color: #fd5f00;
+}
+.primary-background{
+    background-color: #fd5f00;
+}
+.apply-btn{
+    background: #fd5f00;
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid #fd5f00;
+}
+a.apply-btn:hover{
+    background: white;
+    padding: 10px 30px;
+    color: #fd5f00;
+    border: 2px solid #fd5f00;
+    text-decoration: none;
+}
+.secondary-color{
+    color: #0d1128;
+}
+.secondary-background{
+    background-color: #0d1128;
+}
+.search-input{
+    border-radius: 20px;
+    border: 2px solid #0d1128;
+}
+
+.search-form{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    left: 180px;
+    bottom: 0;
+   
+}
+
+.search-input::placeholder{
+    color: #0d1128;
+}
+
+/* HEARDER STYLES ENDS HERE */
+
+/*  WHAT WE OFFER STYLE BEGINS HERE */
+
+.What-we-offer-icon{
+    background-color: #fd5f00;
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.what-we-offer-img{
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+}
+/*  WHAT WE OFFER STYLE BEGINS HERE */
+
+/* ABOUT STYLE BEGINS HERE */
+.about-us{
+    background-image: url(../images/bg_3.jpg);
+    padding: 100px 0px 150px 0px;
+    background-size: 100%;
+    position: relative;
+}
+.about-us::before{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(253, 95, 0, 0.4);
+    content: "";
+    position: absolute;
+}
+.about-play-icon{
+    position: absolute;
+    top: 125px;
+    right: 0;
+    left: 250px;
+    bottom: 0;
+    color: #fd5f00;
+    font-size: 20px;
+}
+.fas.fa-play{
+    background-color: white;
+    padding: 25px;
+    border-radius: 50%;
+    color: #fd5f00;
+}
+
+/* ABOUNT STYLE ENDS HERE */
+
+
+
+/* ASSIGNMENT */
+/* OUR COURSES STYLE BEGINS HERE */
+.mr-khan{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.card-btn{
+    background: #fd5f00;
+    padding:3px;
+    margin: 3px;
+    color: white;
+    border: 1px solid #fd5f00;
+    border-radius: 40px; 
+    font-size: 12px;
+}
+
+/* OUR COURSES STYLE ENDS HERE */
+
+/* REQUEST FORM STYLE BEGINS HERE */
+
+.request-form{
+    
+        background-image: url(../images/bg_5.jpg);
+        background-size: cover;
+        background-size: 100%;
+        background-color: rgba(253, 95, 0, 0.4);
+        position: relative;
+    }
+
+    .background{
+        padding-bottom: 30px;
+    }
+
+    .card-btn-request{
+        background: #fd5f00;
+        padding:2px 40px;
+        margin-right: 20px;
+        color: white;
+        border: 10px solid #fd5f00;
+        border-radius: 40px; 
+        font-size: 20px;
+        box-shadow: #0d1128;     
+    }
+
+
+/* REQUEST FORM STYLE ENDS HERE */
+
+
+/* RECENT-BLOG STYLE BEGINS HERE */
+
+.date{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    width: 60px;
+    height: 120px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;;
+}
+
+/* RECENT-BLOG STYLE ENDS HERE */
